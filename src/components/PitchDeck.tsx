@@ -418,9 +418,9 @@ const MarketSlide: React.FC = () => (
               <p className="text-sm text-blue-600 mt-2">Total addressable market on campus</p>
             </Card>
             <Card className="p-6 bg-gradient-to-br from-green-50 to-green-100 border-green-200">
-              <h3 className="text-3xl font-bold text-green-800">$50M</h3>
-              <p className="text-green-700 font-medium">P2P Market</p>
-              <p className="text-sm text-green-600 mt-2">Estimated student-to-student transactions</p>
+              <h3 className="text-3xl font-bold text-green-800">$15-25M</h3>
+              <p className="text-green-700 font-medium">UF Resale Market</p>
+              <p className="text-sm text-green-600 mt-2">Total UF student resale market per year</p>
             </Card>
           </div>
           <Card className="p-6 bg-gradient-to-r from-orange-50 to-red-50 border-orange-200">
@@ -428,19 +428,19 @@ const MarketSlide: React.FC = () => (
             <div className="space-y-3">
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">📚 Textbooks & Materials</span>
-                <span className="font-semibold text-orange-800">$20M/year</span>
+                <span className="font-semibold text-orange-800">$5-8M/year</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">🪑 Furniture & Dorm Items</span>
-                <span className="font-semibold text-orange-800">$15M/year</span>
+                <span className="font-semibold text-orange-800">$5-7M/year</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">💻 Electronics & Tech</span>
-                <span className="font-semibold text-orange-800">$10M/year</span>
+                <span className="font-semibold text-orange-800">$3-5M/year</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">👕 Clothing & Accessories</span>
-                <span className="font-semibold text-orange-800">$5M/year</span>
+                <span className="text-orange-700">👕 Clothing & Other</span>
+                <span className="font-semibold text-orange-800">$2-3M/year</span>
               </div>
             </div>
           </Card>
