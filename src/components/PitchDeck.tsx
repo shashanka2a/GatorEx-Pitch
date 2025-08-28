@@ -418,7 +418,7 @@ const MarketSlide: React.FC = () => (
               <p className="text-sm text-blue-600 mt-2">Total addressable market on campus</p>
             </Card>
             <Card className="p-6 bg-gradient-to-br from-green-50 to-green-100 border-green-200">
-              <h3 className="text-3xl font-bold text-green-800">$15-25M</h3>
+              <h3 className="text-3xl font-bold text-green-800">$10M</h3>
               <p className="text-green-700 font-medium">UF Resale Market</p>
               <p className="text-sm text-green-600 mt-2">Total UF student resale market per year</p>
             </Card>
@@ -428,19 +428,19 @@ const MarketSlide: React.FC = () => (
             <div className="space-y-3">
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">📚 Textbooks & Materials</span>
-                <span className="font-semibold text-orange-800">$5-8M/year</span>
+                <span className="font-semibold text-orange-800">$3.5M/year</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">🪑 Furniture & Dorm Items</span>
-                <span className="font-semibold text-orange-800">$5-7M/year</span>
+                <span className="font-semibold text-orange-800">$3M/year</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">💻 Electronics & Tech</span>
-                <span className="font-semibold text-orange-800">$3-5M/year</span>
+                <span className="font-semibold text-orange-800">$2.5M/year</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">👕 Clothing & Other</span>
-                <span className="font-semibold text-orange-800">$2-3M/year</span>
+                <span className="font-semibold text-orange-800">$1M/year</span>
               </div>
             </div>
           </Card>
@@ -591,20 +591,20 @@ const TractionSlide: React.FC = () => (
             <h3 className="text-base font-semibold mb-2">Roadmap & Milestones</h3>
             <div className="space-y-1">
               <div className="flex justify-between items-center text-xs">
-                <span>✅ MVP Launch</span>
-                <span className="font-medium">Sep 1, 2024</span>
+                <span>🎯 MVP Launch</span>
+                <span className="font-medium">Sep 2025</span>
               </div>
               <div className="flex justify-between items-center text-xs">
                 <span>🎯 1K Users</span>
-                <span className="font-medium">Oct 2024</span>
+                <span className="font-medium">Q4 2025</span>
               </div>
               <div className="flex justify-between items-center text-xs">
                 <span>🎯 Public Launch</span>
-                <span className="font-medium">Jan 2025</span>
+                <span className="font-medium">Q1 2026</span>
               </div>
               <div className="flex justify-between items-center text-xs">
                 <span>🎯 Revenue Model</span>
-                <span className="font-medium">Q3 2025</span>
+                <span className="font-medium">Q2 2026</span>
               </div>
             </div>
           </Card>
@@ -719,7 +719,7 @@ const BusinessModelSlide: React.FC = () => (
             <h3 className="text-base font-semibold text-orange-800 mb-2">Monetization Timeline</h3>
             <div className="space-y-1 text-xs">
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">2025: Free Growth</span>
+                <span className="text-orange-700">2025-2026: Free Growth</span>
                 <span className="font-medium text-orange-800">5K+ Users</span>
               </div>
               <div className="flex justify-between items-center">
@@ -792,19 +792,19 @@ const GTMSlide: React.FC = () => (
             <h3 className="text-lg font-semibold text-purple-800 mb-3">Launch Timeline</h3>
             <div className="space-y-3 text-sm text-purple-700">
               <div className="flex justify-between">
-                <span>Q1 2025</span>
+                <span>Q3 2025</span>
                 <span className="font-medium">UF Launch</span>
               </div>
               <div className="flex justify-between">
-                <span>Q2 2025</span>
+                <span>Q4 2025</span>
                 <span className="font-medium">FSU & UCF</span>
               </div>
               <div className="flex justify-between">
-                <span>Q3 2025</span>
+                <span>Q1 2026</span>
                 <span className="font-medium">SEC Schools</span>
               </div>
               <div className="flex justify-between">
-                <span>Q4 2025</span>
+                <span>Q2 2026</span>
                 <span className="font-medium">National</span>
               </div>
             </div>
@@ -983,15 +983,15 @@ const TeamSlide: React.FC = () => (
             <div className="space-y-2 text-sm text-gray-700">
               <div className="flex justify-between">
                 <span>📈 Marketing Manager</span>
-                <span className="text-green-600 font-medium">Q2 2025</span>
+                <span className="text-green-600 font-medium">Q4 2025</span>
               </div>
               <div className="flex justify-between">
                 <span>🤝 Campus Ambassador</span>
-                <span className="text-blue-600 font-medium">Q3 2025</span>
+                <span className="text-blue-600 font-medium">Q1 2026</span>
               </div>
               <div className="flex justify-between">
                 <span>💼 Business Development</span>
-                <span className="text-purple-600 font-medium">Q4 2025</span>
+                <span className="text-purple-600 font-medium">Q2 2026</span>
               </div>
             </div>
             <p className="text-xs text-gray-600 mt-2 italic">Development handled in-house</p>

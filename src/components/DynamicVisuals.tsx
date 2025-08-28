@@ -183,10 +183,10 @@ export const AppMockupAnimation: React.FC = () => {
 // Growth chart animation
 export const GrowthChartAnimation: React.FC = () => {
   const data = [
-    { month: 'Sep', users: 100, revenue: 500 },
-    { month: 'Oct', users: 500, revenue: 2500 },
-    { month: 'Nov', users: 1200, revenue: 6000 },
-    { month: 'Dec', users: 2500, revenue: 12500 },
+    { month: 'Sep 25', users: 100, revenue: 500 },
+    { month: 'Oct 25', users: 500, revenue: 2500 },
+    { month: 'Nov 25', users: 1200, revenue: 6000 },
+    { month: 'Dec 25', users: 2500, revenue: 12500 },
   ];
 
   return (
