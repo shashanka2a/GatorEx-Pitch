@@ -98,6 +98,11 @@ const PitchDeck: React.FC = () => {
         {/* Header */}
         <div className="p-6 flex items-center justify-between">
           <div className="flex items-center space-x-4">
+            <img 
+              src="/logo.svg" 
+              alt="GatorEx Logo" 
+              className="w-8 h-8 object-contain"
+            />
             <h1 className="text-white text-2xl font-bold">GatorEx</h1>
             <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
               UF Student Marketplace
@@ -191,8 +196,12 @@ const IntroSlide: React.FC = () => (
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.8 }}
       >
-        <div className="w-32 h-32 mx-auto bg-gradient-to-r from-[#FA4616] to-[#0021A5] rounded-full flex items-center justify-center mb-6 shadow-2xl">
-          <span className="text-white font-bold text-4xl">G</span>
+        <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center">
+          <img 
+            src="/logo.svg" 
+            alt="GatorEx Logo" 
+            className="w-full h-full object-contain drop-shadow-2xl"
+          />
         </div>
         <h1 className="text-6xl font-bold uf-gradient-text mb-4">GatorEx</h1>
         <p className="text-2xl text-gray-600 font-medium">The Future of Student Commerce</p>
