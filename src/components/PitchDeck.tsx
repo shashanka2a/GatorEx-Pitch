@@ -358,16 +358,16 @@ const SolutionSlide: React.FC = () => (
               {/* Categories */}
               <div className="p-3">
                 <div className="text-sm font-semibold mb-2">Browse Categories</div>
-                <div className="grid grid-cols-4 gap-2">
+                <div className="grid grid-cols-4 gap-1">
                   {[
                     { icon: '📚', name: 'Books', color: 'bg-blue-100' },
-                    { icon: '💻', name: 'Electronics', color: 'bg-green-100' },
-                    { icon: '🪑', name: 'Furniture', color: 'bg-purple-100' },
-                    { icon: '👕', name: 'Clothing', color: 'bg-pink-100' },
+                    { icon: '💻', name: 'Tech', color: 'bg-green-100' },
+                    { icon: '🪑', name: 'Dorm', color: 'bg-purple-100' },
+                    { icon: '👕', name: 'Style', color: 'bg-pink-100' },
                   ].map((cat, i) => (
-                    <div key={i} className={`${cat.color} p-2 rounded-lg text-center`}>
-                      <div className="text-lg">{cat.icon}</div>
-                      <div className="text-xs">{cat.name}</div>
+                    <div key={i} className={`${cat.color} p-1.5 rounded-lg text-center min-h-[60px] flex flex-col justify-center`}>
+                      <div className="text-base mb-1">{cat.icon}</div>
+                      <div className="text-xs font-medium leading-tight">{cat.name}</div>
                     </div>
                   ))}
                 </div>
