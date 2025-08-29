@@ -928,8 +928,11 @@ const TeamSlide: React.FC = () => (
                 rel="noopener noreferrer"
                 className="inline-block"
               >
-                <Badge className="bg-white/20 text-white border-white/30 text-xs hover:bg-white/30 transition-colors cursor-pointer">
-                  LinkedIn
+                <Badge className="bg-white/20 text-white border-white/30 text-xs hover:bg-white/30 transition-colors cursor-pointer flex items-center space-x-1">
+                  <span>LinkedIn</span>
+                  <svg className="w-2.5 h-2.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 00-1.5 0v3.25H5.75V7.5H9a.75.75 0 000-1.5H4.25zM6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clipRule="evenodd" />
+                  </svg>
                 </Badge>
               </a>
               <Badge className="bg-white/20 text-white border-white/30 text-xs">Full-Stack</Badge>
