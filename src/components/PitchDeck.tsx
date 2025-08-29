@@ -482,7 +482,7 @@ const ProductDemoSlide: React.FC = () => (
       transition={{ delay: 0.2 }}
       className="flex flex-col h-full"
     >
-      <h2 className="text-3xl font-bold text-gray-900 mb-6">Product Demo</h2>
+      <h2 className="text-4xl font-bold text-gray-900 mb-8">Product Demo</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
         <div className="space-y-4 flex flex-col">
           <div className="bg-gradient-to-r from-[#0021A5] to-[#1B4DB8] p-6 rounded-xl text-white flex-1">
@@ -537,7 +537,7 @@ const TractionSlide: React.FC = () => (
       transition={{ delay: 0.2 }}
       className="flex flex-col h-full"
     >
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Early Validation & Projections</h2>
+      <h2 className="text-4xl font-bold text-gray-900 mb-8">Early Validation & Projections</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 flex-1 min-h-0">
         <div className="space-y-3 flex flex-col">
           {/* Current Status */}
@@ -566,43 +566,44 @@ const TractionSlide: React.FC = () => (
           {/* 6-Month Projections */}
           <div className="grid grid-cols-2 gap-2">
             <Card className="p-2 bg-gradient-to-br from-green-50 to-green-100 border-green-200 text-center">
-              <h4 className="text-base font-bold text-green-800">5,000+</h4>
+              <h4 className="text-sm font-bold text-green-800">5,000+</h4>
               <p className="text-green-700 font-medium text-xs">Users (6mo)</p>
               <p className="text-xs text-green-600">Projected</p>
             </Card>
             <Card className="p-2 bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200 text-center">
-              <h4 className="text-base font-bold text-blue-800">2,500+</h4>
+              <h4 className="text-sm font-bold text-blue-800">2,500+</h4>
               <p className="text-blue-700 font-medium text-xs">Items/Month</p>
               <p className="text-xs text-blue-600">Projected</p>
             </Card>
             <Card className="p-2 bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200 text-center">
-              <h4 className="text-base font-bold text-purple-800">1,000+</h4>
+              <h4 className="text-sm font-bold text-purple-800">1,000+</h4>
               <p className="text-purple-700 font-medium text-xs">Transactions</p>
               <p className="text-xs text-purple-600">Projected</p>
             </Card>
             <Card className="p-2 bg-gradient-to-br from-orange-50 to-orange-100 border-orange-200 text-center">
-              <h4 className="text-base font-bold text-orange-800">15%</h4>
+              <h4 className="text-sm font-bold text-orange-800">15%</h4>
               <p className="text-orange-700 font-medium text-xs">Market Share</p>
               <p className="text-xs text-orange-600">UF Campus</p>
             </Card>
           </div>
 
-          <Card className="p-3 bg-gradient-to-r from-[#FA4616] to-[#FF6B47] text-white flex-1">
+          {/* Roadmap & Milestones */}
+          <Card className="p-3 bg-gradient-to-r from-[#FA4616] to-[#FF6B47] text-white">
             <h3 className="text-base font-semibold mb-2">Roadmap & Milestones</h3>
-            <div className="space-y-1">
-              <div className="flex justify-between items-center text-xs">
+            <div className="space-y-2">
+              <div className="flex justify-between items-center text-sm">
                 <span>🎯 MVP Launch</span>
                 <span className="font-medium">Sep 2025</span>
               </div>
-              <div className="flex justify-between items-center text-xs">
+              <div className="flex justify-between items-center text-sm">
                 <span>🎯 1K Users</span>
                 <span className="font-medium">Q4 2025</span>
               </div>
-              <div className="flex justify-between items-center text-xs">
+              <div className="flex justify-between items-center text-sm">
                 <span>🎯 Public Launch</span>
                 <span className="font-medium">Q1 2026</span>
               </div>
-              <div className="flex justify-between items-center text-xs">
+              <div className="flex justify-between items-center text-sm">
                 <span>🎯 Revenue Model</span>
                 <span className="font-medium">Q2 2026</span>
               </div>
@@ -625,79 +626,79 @@ const BusinessModelSlide: React.FC = () => (
       transition={{ delay: 0.2 }}
       className="flex flex-col h-full"
     >
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Business Model Strategy</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 flex-1 min-h-0">
-        <div className="space-y-3">
+      <h2 className="text-4xl font-bold text-gray-900 mb-8">Business Model Strategy</h2>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
+        <div className="space-y-4">
           {/* Current Strategy */}
-          <Card className="p-3 bg-gradient-to-r from-[#0021A5] to-[#1B4DB8] text-white">
-            <h3 className="text-lg font-bold mb-2">Phase 1: Free Model</h3>
-            <div className="space-y-2">
-              <div className="border-l-2 border-white pl-2">
-                <h4 className="font-semibold text-sm">100% Free Platform</h4>
-                <p className="text-blue-100 text-xs">No fees for buyers or sellers</p>
+          <Card className="p-4 bg-gradient-to-r from-[#0021A5] to-[#1B4DB8] text-white">
+            <h3 className="text-xl font-bold mb-3">Phase 1: Free Model</h3>
+            <div className="space-y-3">
+              <div className="border-l-2 border-white pl-3">
+                <h4 className="font-semibold text-base">100% Free Platform</h4>
+                <p className="text-blue-100 text-sm">No fees for buyers or sellers</p>
               </div>
-              <div className="border-l-2 border-white pl-2">
-                <h4 className="font-semibold text-sm">Focus on Growth</h4>
-                <p className="text-blue-100 text-xs">Build user base and engagement</p>
+              <div className="border-l-2 border-white pl-3">
+                <h4 className="font-semibold text-base">Focus on Growth</h4>
+                <p className="text-blue-100 text-sm">Build user base and engagement</p>
               </div>
-              <div className="border-l-2 border-white pl-2">
-                <h4 className="font-semibold text-sm">Market Validation</h4>
-                <p className="text-blue-100 text-xs">Prove product-market fit first</p>
+              <div className="border-l-2 border-white pl-3">
+                <h4 className="font-semibold text-base">Market Validation</h4>
+                <p className="text-blue-100 text-sm">Prove product-market fit first</p>
               </div>
             </div>
           </Card>
 
           {/* Why Free First */}
-          <Card className="p-3 bg-gradient-to-r from-[#FA4616] to-[#FF6B47] text-white">
-            <h3 className="text-base font-bold mb-2">Why Start Free?</h3>
-            <div className="space-y-1 text-xs">
-              <div className="flex items-center space-x-2">
-                <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
+          <Card className="p-4 bg-gradient-to-r from-[#FA4616] to-[#FF6B47] text-white">
+            <h3 className="text-lg font-bold mb-3">Why Start Free?</h3>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span>Students are price-sensitive</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span>Network effects need critical mass</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span>Compete with free Facebook groups</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span>Build trust and habit formation</span>
               </div>
             </div>
           </Card>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-4">
           {/* Future Revenue Streams */}
-          <Card className="p-3 bg-gradient-to-r from-green-50 to-green-100 border-green-200">
-            <h3 className="text-base font-semibold text-green-800 mb-2">Phase 2: Monetization (2026+)</h3>
-            <div className="space-y-2">
-              <div className="border-l-2 border-green-500 pl-2">
-                <h4 className="font-semibold text-green-800 text-sm">Seller Ads & Promotions</h4>
-                <p className="text-green-700 text-xs">Featured listings, boost visibility</p>
+          <Card className="p-4 bg-gradient-to-r from-green-50 to-green-100 border-green-200">
+            <h3 className="text-lg font-semibold text-green-800 mb-3">Phase 2: Monetization (2026+)</h3>
+            <div className="space-y-3">
+              <div className="border-l-2 border-green-500 pl-3">
+                <h4 className="font-semibold text-green-800 text-base">Seller Ads & Promotions</h4>
+                <p className="text-green-700 text-sm">Featured listings, boost visibility</p>
               </div>
-              <div className="border-l-2 border-green-500 pl-2">
-                <h4 className="font-semibold text-green-800 text-sm">Campus Partnerships</h4>
-                <p className="text-green-700 text-xs">Bookstore integrations, official channels</p>
+              <div className="border-l-2 border-green-500 pl-3">
+                <h4 className="font-semibold text-green-800 text-base">Campus Partnerships</h4>
+                <p className="text-green-700 text-sm">Bookstore integrations, official channels</p>
               </div>
-              <div className="border-l-2 border-green-500 pl-2">
-                <h4 className="font-semibold text-green-800 text-sm">Premium Features</h4>
-                <p className="text-green-700 text-xs">Analytics, bulk tools for power sellers</p>
+              <div className="border-l-2 border-green-500 pl-3">
+                <h4 className="font-semibold text-green-800 text-base">Premium Features</h4>
+                <p className="text-green-700 text-sm">Analytics, bulk tools for power sellers</p>
               </div>
             </div>
           </Card>
 
           {/* Market Opportunity */}
-          <Card className="p-3 bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200">
-            <h3 className="text-base font-semibold text-purple-800 mb-2">Revenue Potential</h3>
-            <div className="space-y-1 text-xs">
+          <Card className="p-4 bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200">
+            <h3 className="text-lg font-semibold text-purple-800 mb-3">Revenue Potential</h3>
+            <div className="space-y-2 text-sm">
               <div className="flex justify-between items-center">
                 <span className="text-purple-700">UF P2P Market</span>
-                <span className="font-semibold text-purple-800">$50M/year</span>
+                <span className="font-semibold text-purple-800">$10M/year</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-purple-700">Target Market Share</span>
@@ -705,9 +706,9 @@ const BusinessModelSlide: React.FC = () => (
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-purple-700">Addressable Market</span>
-                <span className="font-semibold text-purple-800">$5M+</span>
+                <span className="font-semibold text-purple-800">$1M+</span>
               </div>
-              <div className="flex justify-between items-center border-t border-purple-300 pt-1">
+              <div className="flex justify-between items-center border-t border-purple-300 pt-2 mt-2">
                 <span className="text-purple-700 font-medium">Revenue Target (2027)</span>
                 <span className="font-bold text-purple-800">$200K+</span>
               </div>
@@ -715,9 +716,9 @@ const BusinessModelSlide: React.FC = () => (
           </Card>
 
           {/* Timeline */}
-          <Card className="p-3 bg-gradient-to-br from-orange-50 to-orange-100 border-orange-200">
-            <h3 className="text-base font-semibold text-orange-800 mb-2">Monetization Timeline</h3>
-            <div className="space-y-1 text-xs">
+          <Card className="p-4 bg-gradient-to-br from-orange-50 to-orange-100 border-orange-200">
+            <h3 className="text-lg font-semibold text-orange-800 mb-3">Monetization Timeline</h3>
+            <div className="space-y-2 text-sm">
               <div className="flex justify-between items-center">
                 <span className="text-orange-700">2025-2026: Free Growth</span>
                 <span className="font-medium text-orange-800">5K+ Users</span>
@@ -902,7 +903,7 @@ const TeamSlide: React.FC = () => (
       transition={{ delay: 0.2 }}
       className="flex flex-col h-full"
     >
-      <h2 className="text-3xl font-bold text-gray-900 mb-6">Founder & Team</h2>
+      <h2 className="text-4xl font-bold text-gray-900 mb-8">Founder & Team</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
         <div className="space-y-4">
           {/* Main founder card */}
@@ -918,11 +919,19 @@ const TeamSlide: React.FC = () => (
               </div>
             </div>
             <p className="text-blue-100 text-xs mb-3">
-              UF Student who experienced the problem firsthand and built the solution. 
-              Handling product, engineering, and business development.
+              UF Student who built the solution after experiencing the problem. Leading product, engineering & business.
             </p>
             <div className="flex space-x-1">
-              <Badge className="bg-white/20 text-white border-white/30 text-xs">LinkedIn</Badge>
+              <a 
+                href="https://www.linkedin.com/in/shashank-jagannatham/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block"
+              >
+                <Badge className="bg-white/20 text-white border-white/30 text-xs hover:bg-white/30 transition-colors cursor-pointer">
+                  LinkedIn
+                </Badge>
+              </a>
               <Badge className="bg-white/20 text-white border-white/30 text-xs">Full-Stack</Badge>
               <Badge className="bg-white/20 text-white border-white/30 text-xs">Product</Badge>
             </div>
@@ -1021,7 +1030,7 @@ const AskSlide: React.FC = () => (
       transition={{ delay: 0.2 }}
       className="flex flex-col h-full"
     >
-      <h2 className="text-3xl font-bold text-gray-900 mb-6">Investment Ask</h2>
+      <h2 className="text-4xl font-bold text-gray-900 mb-8">Investment Ask</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
         {/* Left Column - Ask & Use of Funds */}
         <div className="space-y-6">
