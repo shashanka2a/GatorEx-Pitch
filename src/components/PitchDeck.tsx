@@ -490,23 +490,23 @@ const ProductDemoSlide: React.FC = () => (
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">UF.edu email verification system</span>
+                <span className="text-base">Sell in 30 seconds via WhatsApp integration</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Category-based item browsing</span>
+                <span className="text-base">Category-based shopping (Books, Furniture, Electronics)</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">In-app messaging and negotiation</span>
+                <span className="text-base">Hot listings and trending items</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Safe meeting location suggestions</span>
+                <span className="text-base">Simple buy/sell interface with instant posting</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Rating and review system</span>
+                <span className="text-base">UF student verification and secure transactions</span>
               </div>
             </div>
           </div>
