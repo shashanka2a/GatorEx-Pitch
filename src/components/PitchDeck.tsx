@@ -105,7 +105,7 @@ const PitchDeck: React.FC = () => {
             />
             <h1 className="text-white text-2xl font-bold">GatorEx</h1>
             <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
-              UF Student Marketplace
+              UF Sublease Platform
             </Badge>
           </div>
           {currentSlide > 0 && currentSlide < slides.length - 1 && (
@@ -204,7 +204,7 @@ const IntroSlide: React.FC = () => (
           />
         </div>
         <h1 className="text-6xl font-bold uf-gradient-text mb-4">GatorEx</h1>
-        <p className="text-2xl text-gray-600 font-medium">The Future of Student Commerce</p>
+        <p className="text-2xl text-gray-600 font-medium">UF Sublease Marketplace</p>
       </motion.div>
 
       {/* Tagline */}
@@ -215,18 +215,18 @@ const IntroSlide: React.FC = () => (
         className="space-y-4"
       >
         <p className="text-lg text-gray-700 max-w-2xl">
-          Connecting University of Florida students through a secure, verified marketplace 
-          designed exclusively for the Gator community.
+          Find and list sublease opportunities around UF campus. Safe, verified, 
+          and designed exclusively for Gator students.
         </p>
         <div className="flex items-center justify-center space-x-6">
           <Badge className="bg-[#FA4616] text-white px-4 py-2 text-sm">
-            🐊 UF Verified
+            🏠 Sublease Focus
           </Badge>
           <Badge className="bg-[#0021A5] text-white px-4 py-2 text-sm">
-            🔒 Safe & Secure
+            🔒 UF Verified
           </Badge>
           <Badge className="bg-gradient-to-r from-[#FA4616] to-[#0021A5] text-white px-4 py-2 text-sm">
-            📱 Mobile First
+            📅 Spring 2026
           </Badge>
         </div>
       </motion.div>
@@ -268,16 +268,16 @@ const ProblemSlide: React.FC = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
         <div className="space-y-6">
           <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-400">
-            <h3 className="text-xl font-semibold text-red-800 mb-3">Limited Marketplace Options</h3>
-            <p className="text-red-700">Students struggle to find affordable textbooks, furniture, and essentials within their university community.</p>
+            <h3 className="text-xl font-semibold text-red-800 mb-3">Sublease Search Nightmare</h3>
+            <p className="text-red-700">Students struggle to find reliable sublease opportunities, often relying on unsafe Facebook groups and Craigslist.</p>
           </div>
           <div className="bg-orange-50 p-6 rounded-xl border-l-4 border-orange-400">
-            <h3 className="text-xl font-semibold text-orange-800 mb-3">Trust & Safety Concerns</h3>
-            <p className="text-orange-700">Existing platforms lack university-specific verification and safety measures for student transactions.</p>
+            <h3 className="text-xl font-semibold text-orange-800 mb-3">Trust & Verification Issues</h3>
+            <p className="text-orange-700">No way to verify if subleasers are legitimate UF students, leading to scams and unsafe living situations.</p>
           </div>
           <div className="bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-400">
-            <h3 className="text-xl font-semibold text-yellow-800 mb-3">Poor User Experience</h3>
-            <p className="text-yellow-700">Current solutions are fragmented, hard to navigate, and not tailored to student needs.</p>
+            <h3 className="text-xl font-semibold text-yellow-800 mb-3">Fragmented Platforms</h3>
+            <p className="text-yellow-700">Students must search across multiple platforms with no standardized process for sublease listings.</p>
           </div>
         </div>
         <div className="flex items-center justify-center">
@@ -299,25 +299,25 @@ const SolutionSlide: React.FC = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
         <div className="space-y-6">
           <div className="bg-gradient-to-r from-[#FA4616] to-[#FF6B47] p-6 rounded-xl text-white">
-            <h3 className="text-2xl font-bold mb-4">GatorEx</h3>
-            <p className="text-lg">A secure, university-verified marketplace exclusively for UF students to buy, sell, and trade items safely within their campus community.</p>
+            <h3 className="text-2xl font-bold mb-4">GatorEx Sublease</h3>
+            <p className="text-lg">A secure, university-verified sublease platform exclusively for UF students to find and list sublease opportunities safely within their campus community.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
               <h4 className="font-semibold text-blue-800 mb-2">✅ UF.edu Verification</h4>
-              <p className="text-sm text-blue-700">Green verified badges for all UF students</p>
+              <p className="text-sm text-blue-700">Verified badges for all UF students</p>
             </div>
             <div className="bg-green-50 p-4 rounded-lg border border-green-200">
-              <h4 className="font-semibold text-green-800 mb-2">🔥 Trending System</h4>
-              <p className="text-sm text-green-700">Hot deals and popular items highlighted</p>
+              <h4 className="font-semibold text-green-800 mb-2">🏠 Easy Listings</h4>
+              <p className="text-sm text-green-700">Post sublease in minutes with photos</p>
             </div>
             <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
-              <h4 className="font-semibold text-purple-800 mb-2">🎯 Visual Categories</h4>
-              <p className="text-sm text-purple-700">Colorful icons for easy browsing</p>
+              <h4 className="font-semibold text-purple-800 mb-2">🔍 Smart Search</h4>
+              <p className="text-sm text-purple-700">Filter by price, location, dates, amenities</p>
             </div>
             <div className="bg-orange-50 p-4 rounded-lg border border-orange-200">
-              <h4 className="font-semibold text-orange-800 mb-2">💰 Price Tracking</h4>
-              <p className="text-sm text-orange-700">Original prices and savings displayed</p>
+              <h4 className="font-semibold text-orange-800 mb-2">🛡️ Safe Transactions</h4>
+              <p className="text-sm text-orange-700">Secure messaging and verified users</p>
             </div>
           </div>
         </div>
@@ -424,23 +424,23 @@ const MarketSlide: React.FC = () => (
             </Card>
           </div>
           <Card className="p-6 bg-gradient-to-r from-orange-50 to-red-50 border-orange-200">
-            <h3 className="text-xl font-semibold text-orange-800 mb-4">Key Market Segments</h3>
+            <h3 className="text-xl font-semibold text-orange-800 mb-4">Sublease Market Segments</h3>
             <div className="space-y-3">
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">📚 Textbooks & Materials</span>
-                <span className="font-semibold text-orange-800">$3.5M/year</span>
+                <span className="text-orange-700">🏠 Apartments & Houses</span>
+                <span className="font-semibold text-orange-800">$4M/year</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">🪑 Furniture & Dorm Items</span>
-                <span className="font-semibold text-orange-800">$3M/year</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="text-orange-700">💻 Electronics & Tech</span>
+                <span className="text-orange-700">🏢 Dorm Rooms</span>
                 <span className="font-semibold text-orange-800">$2.5M/year</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">👕 Clothing & Other</span>
-                <span className="font-semibold text-orange-800">$1M/year</span>
+                <span className="text-orange-700">🏘️ Shared Housing</span>
+                <span className="font-semibold text-orange-800">$2M/year</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-orange-700">🏖️ Summer Subleases</span>
+                <span className="font-semibold text-orange-800">$1.5M/year</span>
               </div>
             </div>
           </Card>
@@ -490,23 +490,23 @@ const ProductDemoSlide: React.FC = () => (
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Sell in 30 seconds via WhatsApp integration</span>
+                <span className="text-base">List sublease in minutes with photos and details</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Category-based shopping (Books, Furniture, Electronics)</span>
+                <span className="text-base">Smart search by price, location, dates, and amenities</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Hot listings and trending items</span>
+                <span className="text-base">UF email verification for all users</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Simple buy/sell interface with instant posting</span>
+                <span className="text-base">Secure messaging and roommate matching</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">UF student verification and secure transactions</span>
+                <span className="text-base">Waitlist system for early access in Spring 2026</span>
               </div>
             </div>
           </div>
@@ -593,19 +593,19 @@ const TractionSlide: React.FC = () => (
             <div className="space-y-2">
               <div className="flex justify-between items-center text-sm">
                 <span>🎯 MVP Launch</span>
-                <span className="font-medium">Sep 2025</span>
+                <span className="font-medium">Spring 2026</span>
               </div>
               <div className="flex justify-between items-center text-sm">
                 <span>🎯 1K Users</span>
-                <span className="font-medium">Q4 2025</span>
+                <span className="font-medium">Q3 2026</span>
               </div>
               <div className="flex justify-between items-center text-sm">
                 <span>🎯 Public Launch</span>
-                <span className="font-medium">Q1 2026</span>
+                <span className="font-medium">Q4 2026</span>
               </div>
               <div className="flex justify-between items-center text-sm">
                 <span>🎯 Revenue Model</span>
-                <span className="font-medium">Q2 2026</span>
+                <span className="font-medium">Q2 2027</span>
               </div>
             </div>
           </Card>
@@ -720,15 +720,15 @@ const BusinessModelSlide: React.FC = () => (
             <h3 className="text-lg font-semibold text-orange-800 mb-3">Monetization Timeline</h3>
             <div className="space-y-2 text-sm">
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">2025-2026: Free Growth</span>
-                <span className="font-medium text-orange-800">5K+ Users</span>
+                <span className="text-orange-700">2026-2027: Free Growth</span>
+                <span className="font-medium text-orange-800">Build User Base</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">2026: Test Ads</span>
-                <span className="font-medium text-orange-800">Seller Promotions</span>
+                <span className="text-orange-700">2027: Premium Features</span>
+                <span className="font-medium text-orange-800">Listing Boosts</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-orange-700">2027: Scale Revenue</span>
+                <span className="text-orange-700">2028: Scale Revenue</span>
                 <span className="font-medium text-orange-800">Multiple Streams</span>
               </div>
             </div>
@@ -793,19 +793,19 @@ const GTMSlide: React.FC = () => (
             <h3 className="text-lg font-semibold text-purple-800 mb-3">Launch Timeline</h3>
             <div className="space-y-3 text-sm text-purple-700">
               <div className="flex justify-between">
-                <span>Q3 2025</span>
+                <span>Spring 2026</span>
                 <span className="font-medium">UF Launch</span>
               </div>
               <div className="flex justify-between">
-                <span>Q4 2025</span>
+                <span>Q4 2026</span>
                 <span className="font-medium">FSU & UCF</span>
               </div>
               <div className="flex justify-between">
-                <span>Q1 2026</span>
+                <span>Q2 2027</span>
                 <span className="font-medium">SEC Schools</span>
               </div>
               <div className="flex justify-between">
-                <span>Q2 2026</span>
+                <span>Q4 2027</span>
                 <span className="font-medium">National</span>
               </div>
             </div>
@@ -995,15 +995,15 @@ const TeamSlide: React.FC = () => (
             <div className="space-y-2 text-sm text-gray-700">
               <div className="flex justify-between">
                 <span>📈 Marketing Manager</span>
-                <span className="text-green-600 font-medium">Q4 2025</span>
+                <span className="text-green-600 font-medium">Q3 2026</span>
               </div>
               <div className="flex justify-between">
                 <span>🤝 Campus Ambassador</span>
-                <span className="text-blue-600 font-medium">Q1 2026</span>
+                <span className="text-blue-600 font-medium">Q4 2026</span>
               </div>
               <div className="flex justify-between">
                 <span>💼 Business Development</span>
-                <span className="text-purple-600 font-medium">Q2 2026</span>
+                <span className="text-purple-600 font-medium">Q2 2027</span>
               </div>
             </div>
             <p className="text-xs text-gray-600 mt-2 italic">Development handled in-house</p>
