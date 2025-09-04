@@ -268,20 +268,45 @@ const ProblemSlide: React.FC = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
         <div className="space-y-6">
           <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-400">
-            <h3 className="text-xl font-semibold text-red-800 mb-3">Limited Marketplace Options</h3>
+            <div className="flex items-center space-x-3 mb-3">
+              <div className="text-2xl">📚</div>
+              <h3 className="text-xl font-semibold text-red-800">Limited Marketplace Options</h3>
+            </div>
             <p className="text-red-700">Students struggle to find affordable textbooks, furniture, and essentials within their university community.</p>
           </div>
           <div className="bg-orange-50 p-6 rounded-xl border-l-4 border-orange-400">
-            <h3 className="text-xl font-semibold text-orange-800 mb-3">Trust & Safety Concerns</h3>
-            <p className="text-orange-700">Existing platforms lack university-specific verification and safety measures for student transactions.</p>
+            <div className="flex items-center space-x-3 mb-3">
+              <div className="text-2xl">🔒</div>
+              <h3 className="text-xl font-semibold text-orange-800">Trust & Safety Concerns</h3>
+            </div>
+            <p className="text-orange-700">70% of UF students rely on Facebook groups, but 60% cite safety/trust issues with unverified sellers.</p>
           </div>
           <div className="bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-400">
-            <h3 className="text-xl font-semibold text-yellow-800 mb-3">Poor User Experience</h3>
+            <div className="flex items-center space-x-3 mb-3">
+              <div className="text-2xl">😞</div>
+              <h3 className="text-xl font-semibold text-yellow-800">Poor User Experience</h3>
+            </div>
             <p className="text-yellow-700">Current solutions are fragmented, hard to navigate, and not tailored to student needs.</p>
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <MarketplaceAnimation />
+          <Card className="p-6 bg-gradient-to-br from-gray-50 to-gray-100 border-gray-200">
+            <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center">Student Survey Results</h3>
+            <div className="space-y-3">
+              <div className="flex justify-between items-center">
+                <span className="text-gray-700">Use Facebook Groups</span>
+                <span className="font-bold text-red-600">70%</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-gray-700">Safety Concerns</span>
+                <span className="font-bold text-orange-600">60%</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-gray-700">Want UF-Only Platform</span>
+                <span className="font-bold text-green-600">85%</span>
+              </div>
+            </div>
+          </Card>
         </div>
       </div>
     </motion.div>
@@ -421,6 +446,7 @@ const MarketSlide: React.FC = () => (
               <h3 className="text-3xl font-bold text-green-800">$10M</h3>
               <p className="text-green-700 font-medium">UF Resale Market</p>
               <p className="text-sm text-green-600 mt-2">Total UF student resale market per year</p>
+              <p className="text-xs text-green-500 mt-1">*Based on $200/student avg. annual resale spend</p>
             </Card>
           </div>
           <Card className="p-6 bg-gradient-to-r from-orange-50 to-red-50 border-orange-200">
@@ -461,11 +487,23 @@ const MarketSlide: React.FC = () => (
           </Card>
           <Card className="p-6 bg-gradient-to-br from-yellow-50 to-yellow-100 border-yellow-200">
             <h3 className="text-lg font-semibold text-yellow-800 mb-4">Expansion</h3>
-            <div className="space-y-2 text-sm text-yellow-700">
-              <div>🎯 Phase 1: University of Florida</div>
-              <div>🏠 Phase 2: Sublease Feature (Spring 2026)</div>
-              <div>🏫 Phase 3: SEC Universities</div>
-              <div>🌍 Phase 4: National Expansion</div>
+            <div className="space-y-3">
+              <div className="flex items-center space-x-2 text-sm text-yellow-700">
+                <div className="w-3 h-3 bg-yellow-600 rounded-full"></div>
+                <span>🎯 Phase 1: University of Florida</span>
+              </div>
+              <div className="flex items-center space-x-2 text-sm text-yellow-700">
+                <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                <span>🏠 Phase 2: Sublease Feature (Spring 2026)</span>
+              </div>
+              <div className="flex items-center space-x-2 text-sm text-yellow-700">
+                <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                <span>🏫 Phase 3: SEC Universities</span>
+              </div>
+              <div className="flex items-center space-x-2 text-sm text-yellow-700">
+                <div className="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                <span>🌍 Phase 4: National Expansion</span>
+              </div>
             </div>
           </Card>
         </div>
@@ -486,27 +524,31 @@ const ProductDemoSlide: React.FC = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
         <div className="space-y-4 flex flex-col">
           <div className="bg-gradient-to-r from-[#0021A5] to-[#1B4DB8] p-6 rounded-xl text-white flex-1">
-            <h3 className="text-2xl font-bold mb-4">Core Features</h3>
-            <div className="space-y-4">
+            <div className="bg-gradient-to-r from-white/20 to-white/10 p-4 rounded-lg mb-4">
+              <h4 className="text-lg font-bold text-center mb-2">🔒 UF-Only Verified Marketplace</h4>
+              <p className="text-sm text-center text-blue-100">Our unique edge: Students only buy/sell with verified Gators</p>
+            </div>
+            <h3 className="text-xl font-bold mb-4">Core Features</h3>
+            <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Sell in 30 seconds via WhatsApp integration</span>
+                <div className="text-lg">🤖</div>
+                <span className="text-sm">AI-powered listing creation in under 2 minutes</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Category-based shopping (Books, Furniture, Electronics)</span>
+                <div className="text-lg">🎯</div>
+                <span className="text-sm">Category-based shopping (Books, Furniture, Electronics)</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Hot listings and trending items</span>
+                <div className="text-lg">🔥</div>
+                <span className="text-sm">Hot listings and trending items</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">Simple buy/sell interface with instant posting</span>
+                <div className="text-lg">⚡</div>
+                <span className="text-sm">Simple buy/sell interface with instant posting</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-white rounded-full"></div>
-                <span className="text-base">UF student verification and secure transactions</span>
+                <div className="text-lg">✅</div>
+                <span className="text-sm">UF student verification and secure transactions</span>
               </div>
             </div>
           </div>
@@ -581,9 +623,9 @@ const TractionSlide: React.FC = () => (
               <p className="text-xs text-purple-600">Projected</p>
             </Card>
             <Card className="p-2 bg-gradient-to-br from-orange-50 to-orange-100 border-orange-200 text-center">
-              <h4 className="text-sm font-bold text-orange-800">15%</h4>
+              <h4 className="text-sm font-bold text-orange-800">5%</h4>
               <p className="text-orange-700 font-medium text-xs">Market Share</p>
-              <p className="text-xs text-orange-600">UF Campus</p>
+              <p className="text-xs text-orange-600">UF Campus (Year 1)</p>
             </Card>
           </div>
 
@@ -710,7 +752,7 @@ const BusinessModelSlide: React.FC = () => (
               </div>
               <div className="flex justify-between items-center border-t border-purple-300 pt-2 mt-2">
                 <span className="text-purple-700 font-medium">Revenue Target (2027)</span>
-                <span className="font-bold text-purple-800">$200K+</span>
+                <span className="font-bold text-purple-800">$500K+</span>
               </div>
             </div>
           </Card>
