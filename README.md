@@ -89,6 +89,46 @@ The app uses a custom color scheme based on UF colors:
 ### Components
 All UI components are built with Radix UI primitives and styled with Tailwind CSS. They're fully customizable and accessible.
 
+## 📄 PDF Generation
+
+Generate a professional PDF of the pitch deck:
+
+### Quick Start
+```bash
+# Install dependencies (if not already done)
+npm install
+
+# Start development server
+npm run dev
+
+# Generate PDF (in another terminal)
+npm run generate-pdf
+```
+
+### Automated Script
+For a fully automated process:
+
+**macOS/Linux:**
+```bash
+./generate-pdf.sh
+```
+
+**Windows:**
+```bash
+generate-pdf.bat
+```
+
+### Options
+```bash
+# Keep screenshot files
+npm run generate-pdf -- --keep-screenshots
+
+# Get help
+node scripts/generate-pdf.js --help
+```
+
+**Output:** `GatorEx-Pitch-Deck.pdf` (HD quality, ready for presentation)
+
 ## 🚀 Deployment
 
 This app is configured for static export and can be deployed to:
