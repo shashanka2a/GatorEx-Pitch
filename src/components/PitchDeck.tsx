@@ -720,16 +720,25 @@ const BusinessModelSlide: React.FC = () => (
             <h3 className="text-lg font-semibold text-green-800 mb-3">Phase 2: Monetization (2026+)</h3>
             <div className="space-y-3">
               <div className="border-l-2 border-green-500 pl-3">
-                <h4 className="font-semibold text-green-800 text-base">Seller Ads & Promotions</h4>
-                <p className="text-green-700 text-sm">Featured listings, boost visibility</p>
+                <div className="flex items-center space-x-2 mb-1">
+                  <span className="text-lg">📢</span>
+                  <h4 className="font-semibold text-green-800 text-base">Seller Ads & Promotions</h4>
+                </div>
+                <p className="text-green-700 text-sm">$10-20/post boost, featured listings</p>
               </div>
               <div className="border-l-2 border-green-500 pl-3">
-                <h4 className="font-semibold text-green-800 text-base">Campus Partnerships</h4>
-                <p className="text-green-700 text-sm">Bookstore integrations, official channels</p>
+                <div className="flex items-center space-x-2 mb-1">
+                  <span className="text-lg">🏫</span>
+                  <h4 className="font-semibold text-green-800 text-base">Campus Partnerships</h4>
+                </div>
+                <p className="text-green-700 text-sm">$2-5K/semester bookstore integrations</p>
               </div>
               <div className="border-l-2 border-green-500 pl-3">
-                <h4 className="font-semibold text-green-800 text-base">Premium Features</h4>
-                <p className="text-green-700 text-sm">Analytics, bulk tools for power sellers</p>
+                <div className="flex items-center space-x-2 mb-1">
+                  <span className="text-lg">⭐</span>
+                  <h4 className="font-semibold text-green-800 text-base">Premium Features</h4>
+                </div>
+                <p className="text-green-700 text-sm">$5-10/month analytics, bulk tools</p>
               </div>
             </div>
           </Card>
@@ -855,10 +864,22 @@ const GTMSlide: React.FC = () => (
           <Card className="p-6 bg-gradient-to-br from-yellow-50 to-yellow-100 border-yellow-200">
             <h3 className="text-lg font-semibold text-yellow-800 mb-3">Success Metrics</h3>
             <div className="space-y-2 text-sm text-yellow-700">
-              <div>• 10% campus penetration</div>
-              <div>• 50+ daily transactions</div>
-              <div>• 4.5+ app store rating</div>
-              <div>• 80% user retention</div>
+              <div className="flex items-center space-x-2">
+                <span>📊</span>
+                <span>10% campus penetration</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span>💰</span>
+                <span>50+ daily transactions</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span>⭐</span>
+                <span>4.5+ app store rating</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span>🔄</span>
+                <span>80% user retention</span>
+              </div>
             </div>
           </Card>
         </div>
@@ -881,19 +902,31 @@ const CompetitionSlide: React.FC = () => (
             <h3 className="text-xl font-semibold text-red-800 mb-4">Current Solutions</h3>
             <div className="space-y-4">
               <div className="border-l-4 border-red-400 pl-4">
-                <h4 className="font-semibold text-red-800">Facebook Marketplace</h4>
+                <div className="flex items-center space-x-2 mb-1">
+                  <span className="text-lg">📘</span>
+                  <h4 className="font-semibold text-red-800">Facebook Marketplace</h4>
+                </div>
                 <p className="text-sm text-red-600">Generic, unsafe, no student verification</p>
               </div>
               <div className="border-l-4 border-red-400 pl-4">
-                <h4 className="font-semibold text-red-800">Craigslist</h4>
+                <div className="flex items-center space-x-2 mb-1">
+                  <span className="text-lg">📋</span>
+                  <h4 className="font-semibold text-red-800">Craigslist</h4>
+                </div>
                 <p className="text-sm text-red-600">Outdated interface, security concerns</p>
               </div>
               <div className="border-l-4 border-red-400 pl-4">
-                <h4 className="font-semibold text-red-800">OfferUp</h4>
+                <div className="flex items-center space-x-2 mb-1">
+                  <span className="text-lg">📱</span>
+                  <h4 className="font-semibold text-red-800">OfferUp</h4>
+                </div>
                 <p className="text-sm text-red-600">Not campus-focused, poor UX for students</p>
               </div>
               <div className="border-l-4 border-red-400 pl-4">
-                <h4 className="font-semibold text-red-800">University Bookstores</h4>
+                <div className="flex items-center space-x-2 mb-1">
+                  <span className="text-lg">🏪</span>
+                  <h4 className="font-semibold text-red-800">University Bookstores</h4>
+                </div>
                 <p className="text-sm text-red-600">Expensive, limited selection</p>
               </div>
             </div>
@@ -905,7 +938,11 @@ const CompetitionSlide: React.FC = () => (
             <div className="space-y-4">
               <div className="border-l-4 border-white pl-4">
                 <h4 className="font-semibold">🔒 University Verification</h4>
-                <p className="text-orange-100">Only verified students can participate</p>
+                <p className="text-orange-100">Only verified UF students - our biggest advantage</p>
+              </div>
+              <div className="border-l-4 border-white pl-4">
+                <h4 className="font-semibold">⚡ Speed & Simplicity</h4>
+                <p className="text-orange-100">List in &lt;2 min vs. 20+ min on Facebook</p>
               </div>
               <div className="border-l-4 border-white pl-4">
                 <h4 className="font-semibold">🎯 Student-Centric Design</h4>
@@ -915,16 +952,13 @@ const CompetitionSlide: React.FC = () => (
                 <h4 className="font-semibold">🏫 Campus Integration</h4>
                 <p className="text-orange-100">Safe meeting spots, local partnerships</p>
               </div>
-              <div className="border-l-4 border-white pl-4">
-                <h4 className="font-semibold">⚡ Mobile-First Experience</h4>
-                <p className="text-orange-100">Optimized for quick, on-the-go use</p>
-              </div>
             </div>
           </Card>
           <div className="grid grid-cols-2 gap-4">
             <Card className="p-4 bg-gradient-to-br from-green-50 to-green-100 border-green-200 text-center">
               <h4 className="text-xl font-bold text-green-800">85%</h4>
-              <p className="text-sm text-green-700">Students prefer verified platforms</p>
+              <p className="text-sm text-green-700">Students prefer verified platforms*</p>
+              <p className="text-xs text-green-600">*UF student survey, n=50+</p>
             </Card>
             <Card className="p-4 bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200 text-center">
               <h4 className="text-xl font-bold text-blue-800">12x</h4>
